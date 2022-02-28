@@ -5,25 +5,25 @@ body{
     display: flex;
     height: 100vh;
     justify-content: space-around;
-    position: relative;
+    
    
 }
+.img{
+     padding-top: 2%;
+}
 .img img{
-    width: 700px;
-    height: 90vh;
+    
+    height: 70vh;
     /* padding-left: 20px; */
     border-radius: 15px;
-    float: right;
-    position: absolute;
-    margin-left: 5%;
-    margin-top: 40px;
+   
+
+    
 }
 .text{
-    position: absolute;
-    padding-left: 5%;
-    left: 0%;
-    top: 10%;
+    margin-top: 4%;
 }
+
 .text h2{
     font-size: 80px;
     font-weight:1;
@@ -37,6 +37,15 @@ body{
 }
 .fa{
     padding-left: 4px;
+}
+@media screen and (max-width:800px) {
+    .landing{
+        display: block;
+    }
+    .img img{
+        height: 40vh;
+    }
+    
 }
 .ingredients{
     display: flex;
