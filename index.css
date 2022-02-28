@@ -1,0 +1,70 @@
+body{
+    background-color: #fcfad4;
+}
+.landing{
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    position: relative;
+   
+}
+.img img{
+    width: 700px;
+    height: 90vh;
+    /* padding-left: 20px; */
+    border-radius: 15px;
+    float: right;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 40px;
+}
+.text{
+    position: absolute;
+    padding-left: 5%;
+    left: 0%;
+    top: 10%;
+}
+.text h2{
+    font-size: 80px;
+    font-weight:1;
+    margin-bottom: 0;
+}
+
+.text p{
+    font-style: italic;
+    font-size: 30px;
+    color: #2AAA6d;
+}
+.fa{
+    padding-left: 4px;
+}
+.ingredients{
+    display: flex;
+    justify-content: space-around;
+    height: 50vh;
+}
+.list1{
+    font-size: 200%;
+}
+.list2{
+    font-size: 200%;
+}
+.section2 h2{
+    font-size: 360%;
+    font-weight: 1;
+    padding-left: 5%;
+}
+.steps{
+    padding-right: 4%;
+    padding-left: 4%;
+    padding-bottom: 2%;
+}
+.steps ol li{
+    font-size:30px;
+}
+.section3 h2{
+     font-size: 360%;
+    font-weight: 1;
+    padding-left: 5%;
+
+}
